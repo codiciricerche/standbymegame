@@ -12,4 +12,5 @@ a participative process thanks to the Stand by Me European project. The game app
 realized by:
 Città Metropolitana di Milano (IT), Codici ricerca e intervento (IT), Spazio Aperto Servizi (IT), Ahead (RO), Eurosuccess (CY) and Fryshuset (SE).
 
+
 This project was funded by the European Union’s Rights, Equality and Citizenship Programme (2014-2020)
