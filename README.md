@@ -3,7 +3,7 @@ This scenario applies daily to boys and girls leaving the alternative care syste
 This free and downloadable game is an awareness and critical thinking tool about autonomy and growing up, built through
 a participative process thanks to the Stand by Me European project. The game applies to boys and girls but also to the adults going along with them.
 
-
+![Home](1.png "Logo Title Text 1")
 
 
 
