@@ -16,3 +16,8 @@ button {
 .fa-coffee {
     font-size: 200px;
 }
+
+footer .w3-cell-row img {
+  max-width: 180px;
+  max-height: 80px;
+}
