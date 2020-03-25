@@ -1,0 +1,21 @@
+var TEXTS_RO = {
+  title: "Stand by Me",
+  subtitle: "...",
+  download_button: "...",
+  description: "...",
+  creative_commons: "...",
+  editable: "...",
+  enjoy: "...",
+  realized_by: "...",
+  realizad_by_text: "...",
+  board_created_by: "...",
+  project_sbm: "...",
+  code_sbm: "...",
+  collaboration: "...",
+  collaboration_text: "...",
+  illustrations: "...",
+  illustrations_text: "...",
+  disclaimer: "...",
+  warning: "...",
+  funded_by: "..."
+}

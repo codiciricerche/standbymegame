@@ -9,41 +9,45 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/i18next@19.3.3/dist/umd/i18next.js"></script>
   <title>Stand By Me</title>
 </head>
 
 <body>
   <!-- Navbar -->
   <div class="w3-top">
-    <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
-        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+      <button id="menu-mobile"
+        class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black"
+        href="javascript:void(0);" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
+        id="en">EN</button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
+        id="it">IT</button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
+        id="el">EL</button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
+        id="ro">RO</button>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="en">EN</button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="it">IT</button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="el">EL</button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro">RO</button>
     </div>
   </div>
 
   <!-- Header -->
-  <header class="w3-container w3-red w3-center" style="padding:128px 16px">
-    <h1 class="w3-margin w3-jumbo">Stand by Me</h1>
-    <p class="w3-xlarge">
-      Welcome to the Stand by Me world: an oddly shaped planet with
-      imperceptible borders where every resident, at the age of 16
-      years old, leave his/her homes and families to face
-      extraordinary adventures and challenges with their superpowers.
+  <header class="w3-container w3-black w3-center" style="padding:128px 16px">
+    <h1 class="w3-margin w3-jumbo" data-trans="title">Stand by Me</h1>
+    <p class="w3-xlarge" data-trans="subtitle">
+      Welcome to the Stand by Me world: an oddly shaped planet with imperceptible borders where every resident, at the
+      age of 16 years old, leave his/her homes and families to face extraordinary adventures and challenges with their
+      superpowers.
     </p>
-    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">
+    <button class="w3-button w3-white w3-padding-large w3-large w3-margin-top" data-trans="download_button">
       Download
     </button>
   </header>
@@ -52,17 +56,12 @@
   <div class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
-        <h1>Lorem Ipsum</h1>
-        <h5 class="w3-padding-32">
-          This scenario applies daily to boys and girls leaving
-          the alternative care system and that are asked to face
-          and cope with the challenges of autonomy earlier than
-          their peers. This free and downloadable game is an
-          awareness and critical thinking tool about autonomy and
-          growing up, built through a participative process thanks
-          to the Stand by Me European project. The game applies to
-          boys and girls but also to the adults going along with
-          them.
+        <h5 class="w3-padding-32" data-trans="description">
+          This scenario applies daily to boys and girls leaving the alternative care system and that are asked to face
+          and cope with the challenges of autonomy earlier than their peers. This free and downloadable game is an
+          awareness and critical thinking tool about autonomy and growing up, built through a participative process
+          thanks to the Stand by Me European project. The game applies to boys and girls but also to the adults going
+          along with them.
         </h5>
       </div>
 
@@ -75,57 +74,60 @@
   <!-- Second Grid -->
   <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
-      <p class="w3-text-grey">
-        Stand by Me is an open source board game under a
-        Creative Commons License (Attribution-ShareAlike 3.0
-        Unported — CC BY-SA 3.0).
+      <p class="w3-text-grey" data-trans="creative_commons">
+        Stand by Me is an open source board game under a Creative Commons License (Attribution-ShareAlike 3.0 Unported —
+        CC BY-SA 3.0).
       </p>
-      <p class="w3-text-gry">
-        It’s editable and might be modified by users in order to
-        adapt contents to specific needs (language,
+      <p class="w3-text-grey" data-trans="editable">
+        It’s editable and might be modified by users in order to adapt contents to specific needs (language,
         gender-balance, type of story).
       </p>
-      <p class="w3-text-gry">Enjoy!</p>
-      <p class="w3-text-gry">
-        Project realized by: <br />Metropolitan City of Milan
-        (IT), Codici | Research and intervention (IT), Spazio
-        Aperto Servizi (IT), Ahead (RO), Eurosuccess (CY) and
-        Fryshuset (SE)
+      <p class="w3-text-grey" data-trans="enjoy">
+        Enjoy!
       </p>
-      <p class="w3-text-gry">
-        Board game created by: <br />Project Stand by Me
-        <br />REC–RCH–PROF–AG–2017–785708
+      <p class="w3-text-grey">
+        <span data-trans="realized_by">Project realized by: </span><br />
+        <span data-trans="realizad_by_text">
+          Metropolitan City of Milan (IT),
+          Codici | Research and intervention (IT), Spazio Aperto
+          Servizi (IT), Ahead (RO), Eurosuccess (CY) and Fryshuset
+          (SE)
+        </span>
       </p>
-      <p class="w3-text-gry">
-        In collaboration with: <br />wemake.cc featuring
-        smarketing°
+      <p class="w3-text-grey">
+        <span data-trans="board_created_by">Board game created by:</span> <br />
+        <span data-trans="project_sbm">Project Stand by Me</span>
+        <br />
+        <span data-trans="code_sbm">REC–RCH–PROF–AG–2017–785708</span>
       </p>
-      <p class="w3-text-gry">
-        Illustrations: <br />strambetty.com
+      <p class="w3-text-grey">
+        <span data-trans="collaboration">In collaboration with:</span> <br />
+        <span data-trans="collaboration_text">wemake.cc featuring smarketing°</span>
       </p>
-      <p class="w3-text-gry">
-        Disclaimer: This game is based on fiction and any
-        reference to people, places, and events are purely
-        coincidental. All contents and characters of the SBM
-        Game have been created in respect of cultural
-        differences, gender balance and language differences.
+      <p class="w3-text-grey">
+        <span data-trans="illustrations">Illustrations:</span> <br />
+        <span data-trans="illustrations_text">strambetty.com</span></p>
+      <p class="w3-text-grey" data-trans="disclaimer">
+        Disclaimer: This game is based on fiction and any reference
+        to people, places, and events are purely coincidental. All
+        contents and characters of the SBM Game have been created in
+        respect of cultural differences, gender balance and language
+        differences.
       </p>
     </div>
   </div>
 
   <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <p>
-      This github pages reflect the views only of the author and the
-      Commission cannot be held responsible for any use which may be
-      made of the information contained therein.
-      REC–RCH–PROF–AG–2017–785708
+    <p data-trans="warning">
+      This github pages reflect the views only of the author and the Commission cannot be held responsible for any use
+      which may be made of the information contained therein. REC–RCH–PROF–AG–2017–785708
+    </p>
+    <p data-trans="funded_by">
+      This project was funded by the European Union’s Rights, Equality and Citizenship Programme (2014-2020)
     </p>
     <p>
-      This project was funded by the European Union’s Rights, Equality
-      and Citizenship Programme (2014-2020)
-    </p>
-    <p>
-      <img class="w3-image" src="images/DID2wpqXsAAGP9a.jpg" width="200" height="133" />
+      <img class="w3-image logo-medium" src="images/logo_small_black.jpg" />
+      <img class="w3-image logo-medium" src="images/DID2wpqXsAAGP9a.jpg" />
     </p>
   </div>
 
@@ -133,42 +135,30 @@
   <footer class="w3-container w3-padding-64 w3-center w3-opacity">
     <div class="w3-cell-row">
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/cittametropolitana-793x354.jpg" />
+        <img class="logo-small" src="images/cittametropolitana-793x354.jpg" />
       </div>
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/codiciweb-250.png" />
+        <img class="logo-small" src="images/codiciweb-250.png" />
       </div>
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/spazio-aperto-servizi.png" />
+        <img class="logo-small" src="images/spazio-aperto-servizi.png" />
       </div>
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/Logo-AHEAD.jpg" />
+        <img class="logo-small" src="images/Logo-AHEAD.jpg" />
       </div>
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/EUROSC-logo-scaled.jpg" />
+        <img class="logo-small" src="images/EUROSC-logo-scaled.jpg" />
       </div>
       <div class="w3-container w3-cell w3-mobile">
-        <img src="images/Fryshuset_logo_2017_neg_rod-1.jpg" />
+        <img class="logo-small" src="images/Fryshuset_logo_2017_neg_rod-1.jpg" />
       </div>
     </div>
-
-    <p>
-      Powered by
-      <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-    </p>
   </footer>
-
-  <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById('navDemo')
-      if (x.className.indexOf('w3-show') == -1) {
-        x.className += ' w3-show'
-      } else {
-        x.className = x.className.replace(' w3-show', '')
-      }
-    }
-  </script>
+  <script src="langs/en.js"></script>
+  <script src="langs/it.js"></script>
+  <script src="langs/el.js"></script>
+  <script src="langs/ro.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
