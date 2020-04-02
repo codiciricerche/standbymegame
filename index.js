@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       ro: {
         translation: TEXTS_RO
+      },
+      sv: {
+        translation: TEXTS_SV
       }
     }
   }, function (err, t) {
