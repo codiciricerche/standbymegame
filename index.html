@@ -5,26 +5,36 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164645003-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
 
-    gtag('config', 'UA-164645003-1');
+    gtag('config', 'UA-164645003-1')
   </script>
-  
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-58S5D7Q');</script>
+  <script>
+      ; (function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js',
+        })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-58S5D7Q')
+  </script>
   <!-- End Google Tag Manager -->
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://unpkg.com/i18next@19.3.3/dist/umd/i18next.js"></script>
   <title>Stand By Me</title>
@@ -36,126 +46,133 @@
     <div class="w3-bar w3-black w3-card w3-left-align w3-large">
       <button id="menu-mobile"
         class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black"
-        href="javascript:void(0);" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
-        id="en">EN</button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
-        id="it">IT</button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
-        id="el">EL</button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
-        id="ro">RO</button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link"
-        id="sv">SV</button>
+        href="javascript:void(0);" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="en"> EN
+      </button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="it"> IT
+      </button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="el"> EL
+      </button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="ro"> RO
+      </button>
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="sv"> SV
+      </button>
     </div>
-
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="en">EN</button>
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="it">IT</button>
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="el">EL</button>
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro">RO</button>
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro">SV</button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="en"> EN </button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="it"> IT </button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="el"> EL </button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro"> RO </button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro"> SV </button>
     </div>
   </div>
-
   <!-- Header -->
-  <header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <header class="w3-container w3-black w3-center" style="padding: 128px 16px;">
     <h1 class="w3-margin w3-jumbo" data-trans="title">Stand by Me</h1>
-    <p class="w3-xlarge" data-trans="subtitle">
-      Welcome to the Stand by Me world: an oddly shaped planet with imperceptible borders where every resident, at the
-      age of 16 years old, leave his/her homes and families to face extraordinary adventures and challenges with their
-      superpowers.
-    </p>
-    <a href="./downloads/sbm.zip" class="download-link w3-button w3-white w3-padding-large w3-large w3-margin-top" data-trans="download_button">
-      Download
-    </a>
+    <p class="w3-xlarge" data-trans="subtitle"> Welcome to the Stand by Me world: an oddly shaped planet with
+      imperceptible borders where every resident, at the age of 16 years old, leave his/her homes and families to face
+      extraordinary adventures and challenges with their superpowers. </p>
+    <a href="#downloads" class="download-link w3-button w3-white w3-padding-large w3-large w3-margin-top"
+      data-trans="download_button"> Download </a>
   </header>
-
   <!-- First Grid -->
   <div class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
-        <h5 class="w3-padding-32" data-trans="description">
-          This scenario applies daily to boys and girls leaving the alternative care system and that are asked to face
-          and cope with the challenges of autonomy earlier than their peers. This free and downloadable game is an
-          awareness and critical thinking tool about autonomy and growing up, built through a participative process
-          thanks to the Stand by Me European project. The game applies to boys and girls but also to the adults going
-          along with them.
-        </h5>
-        <h3 data-trans="slogan">
-          An awareness and critical thinking tool about autonomy and growing up.
-        </h3>
+        <h5 class="w3-padding-32" data-trans="description"> This scenario applies daily to boys and girls leaving the
+          alternative care system and that are asked to face and cope with the challenges of autonomy earlier than their
+          peers. This free and downloadable game is an awareness and critical thinking tool about autonomy and growing
+          up, built through a participative process thanks to the Stand by Me European project. The game applies to boys
+          and girls but also to the adults going along with them. </h5>
+        <h3 data-trans="slogan"> An awareness and critical thinking tool about autonomy and growing up. </h3>
       </div>
-
-      <div class="w3-third w3-center">
-        <a href="./downloads/sbm.zip">
-          <img class="w3-image w3-padding" src="images/SBM-icona-download2.png" />
-        </a>
+      <div class="w3-third w3-center">   
+        <img class="w3-image w3-padding" src="images/SBM-icona-download2.jpg" />       
       </div>
     </div>
   </div>
-
   <!-- Second Grid -->
-  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="downloads">
     <div class="w3-content">
-      <p class="w3-text-grey" data-trans="creative_commons">
-        Stand by Me is an open source board game under a Creative Commons License (Attribution-ShareAlike 3.0 Unported —
-        CC BY-SA 3.0).
-      </p>
-      <p class="w3-text-grey" data-trans="editable">
-        It’s editable and might be modified by users in order to adapt contents to specific needs (language,
-        gender-balance, type of story).
-      </p>
-      <p class="w3-text-grey" data-trans="enjoy">
-        Enjoy!
-      </p>
+      <div class="w3-half">
+        <h5 class="w3-padding-32">Click here to download:</h5>
+        <p>
+          <a href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_gameboard_printpack_A3_FrontRear_EN.pdf" target="_blank">Game board print pack!</a>
+        </p>
+        <p>
+          <a href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_Instructions booklet_EN.pdf" target="_blank">Instructions
+            booklet</a>
+        </p>
+        <p><a href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_Cards_Stories_booklet_EN.pdf" target="_blank">Cards & Stories booklet</a></p>
+        <p><a href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_businesscard.pdf" target="_blank">Businesscard</a></p>
+        <p>
+          <a href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_box folder.pdf" target="_blank">Box folder</a>
+        </p>
+      </div>
+      <div class="w3-half">
+        <h5 class="w3-padding-32">If you want to edit the game download also:</h5>
+        <p>
+          <a href="downloads/editablefiles_StandByMeGame_Cards_StoriesbookletEN.docx">Cards & Stories booklet </a>
+        </p>
+        <p>
+          <a href="downloads/editablefiles_StandByMeGame_InstructionsbookletEN.docx">Instructions booklet</a>
+        </p>
+        <p>
+          <a href="downloads/Documentfonts.zip">
+            Font
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Third Grid -->
+  <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <p class="w3-text-grey" data-trans="creative_commons"> Stand by Me is an open source board game under a Creative
+        Commons License (Attribution-ShareAlike 3.0 Unported — CC BY-SA 3.0). </p>
+      <p class="w3-text-grey" data-trans="editable"> It’s editable and might be modified by users in order to adapt
+        contents to specific needs (language, gender-balance, type of story). </p>
+      <p class="w3-text-grey" data-trans="enjoy">Enjoy!</p>
       <p class="w3-text-grey">
         <span data-trans="realized_by">Project realized by: </span><br />
-        <span data-trans="realizad_by_text">
-          Metropolitan City of Milan (IT),
-          Codici | Research and intervention (IT), Spazio Aperto
-          Servizi (IT), Ahead (RO), Eurosuccess (CY) and Fryshuset
-          (SE)
-        </span>
+        <span data-trans="realizad_by_text"> Metropolitan City of Milan (IT), Codici | Research and intervention (IT),
+          Spazio Aperto Servizi (IT), Ahead (RO), Eurosuccess (CY) and Fryshuset (SE) </span>
       </p>
       <p class="w3-text-grey">
-        <span data-trans="board_created_by">Board game created by:</span> <br />
+        <span data-trans="board_created_by">Board game created by:</span>
+        <br />
         <span data-trans="project_sbm">Project Stand by Me</span>
         <br />
         <span data-trans="code_sbm">REC–RCH–PROF–AG–2017–785708</span>
       </p>
       <p class="w3-text-grey">
-        <span data-trans="collaboration">In collaboration with:</span> <br />
+        <span data-trans="collaboration">In collaboration with:</span>
+        <br />
         <span data-trans="collaboration_text">wemake.cc featuring smarketing°</span>
       </p>
       <p class="w3-text-grey">
-        <span data-trans="illustrations">Illustrations:</span> <br />
-        <span data-trans="illustrations_text">strambetty.com</span></p>
-      <p class="w3-text-grey" data-trans="disclaimer">
-        Disclaimer: This game is based on fiction and any reference
-        to people, places, and events are purely coincidental. All
-        contents and characters of the SBM Game have been created in
-        respect of cultural differences, gender balance and language
-        differences.
+        <span data-trans="illustrations">Illustrations:</span>
+        <br />
+        <span data-trans="illustrations_text">strambetty.com</span>
       </p>
+      <p class="w3-text-grey" data-trans="disclaimer"> Disclaimer: This game is based on fiction and any reference to
+        people, places, and events are purely coincidental. All contents and characters of the SBM Game have been
+        created in respect of cultural differences, gender balance and language differences. </p>
     </div>
   </div>
-
   <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <p data-trans="warning">
-      This github pages reflect the views only of the author and the Commission cannot be held responsible for any use
-      which may be made of the information contained therein. REC–RCH–PROF–AG–2017–785708
-    </p>
-    <p data-trans="funded_by">
-      This project was funded by the European Union’s Rights, Equality and Citizenship Programme (2014-2020)
-    </p>
+    <p data-trans="warning"> This github pages reflect the views only of the author and the Commission cannot be held
+      responsible for any use which may be made of the information contained therein. REC–RCH–PROF–AG–2017–785708 </p>
+    <p data-trans="funded_by"> This project was funded by the European Union’s Rights, Equality and Citizenship
+      Programme (2014-2020) </p>
     <p>
       <img class="w3-image logo-medium" src="images/logo_small_black.jpg" />
       <img class="w3-image logo-medium" src="images/DID2wpqXsAAGP9a.jpg" />
     </p>
   </div>
-
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-center w3-opacity">
     <div class="w3-cell-row">
@@ -186,10 +203,9 @@
   <script src="langs/sv.js"></script>
   <script src="index.js"></script>
 </body>
-  
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58S5D7Q"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58S5D7Q" height="0" width="0"
+    style="display: none; visibility: hidden;"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 </html>
