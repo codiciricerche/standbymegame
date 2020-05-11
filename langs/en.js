@@ -20,5 +20,26 @@ var TEXTS_EN = {
   more_info_text: "standbyme.rec@gmail.com",
   disclaimer: "Disclaimer: This game is based on fiction and any reference to people, places, and events are purely coincidental. All contents and characters of the SBM Game have been created in respect of cultural differences, gender balance and language differences.",
   warning: "This github pages reflect the views only of the author and the Commission cannot be held responsible for any use which may be made of the information contained therein. REC–RCH–PROF–AG–2017–785708",
-  funded_by: "This project was funded by the European Union’s Rights, Equality and Citizenship Programme (2014-2020)"
+  funded_by: "This project was funded by the European Union’s Rights, Equality and Citizenship Programme (2014-2020)",
+  kit_download: "Game kit download:",
+  print_pack: "Game board print pack!",
+  instructions_booklet: "Instructions booklet",
+  card_stories_booklet: "Cards & Stories booklet",
+  packaging_kit: "Packaging and dissemination kit:",
+  bussiness_card: "Business card",
+  box_folder: "Box folder",
+  edit_download: "If you wish to edit the game download also:",
+  edit_card_stories_booklet: "Cards & Stories booklet",
+  edit_instructions_booklet: "Instructions booklet",
+  font: "Font",
+  downloads: {
+    print_pack: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame__Gamekitdownload/EN_gameboard_printpack_A3_FrontRear_StandByMeGame.pdf",
+    instructions_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame__Gamekitdownload/EN_Instructions_booklet_StandByMeBoardGame.pdf",
+    card_stories_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame__Gamekitdownload/EN_Cards&Stories_booklet_StandByMeBoardGame.pdf",
+    edit_card_stories_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame_editablefiles/EN_Cards_Stories_booklet_editablefiles_StandByMeGame.docx",
+    edit_instructions_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame_editablefiles/EN_Instructions_booklet_editablefiles_StandByMeGame.docx",
+    bussiness_card: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_businesscard.pdf",
+    box_folder: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_box folder.pdf",
+    font: "downloads/Fonts/fonts.zip"
+  }
 }
