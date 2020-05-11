@@ -6,6 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164645003-1"></script>
   <script>
     window.dataLayer = window.dataLayer || []
+
     function gtag() {
       dataLayer.push(arguments)
     }
@@ -15,19 +16,20 @@
   </script>
   <!-- Google Tag Manager -->
   <script>
-      ; (function (w, d, s, l, i) {
-        w[l] = w[l] || []
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js',
-        })
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : ''
-        j.async = true
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
-        f.parentNode.insertBefore(j, f)
-      })(window, document, 'script', 'dataLayer', 'GTM-58S5D7Q')
+    ;
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js',
+      })
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : ''
+      j.async = true
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f)
+    })(window, document, 'script', 'dataLayer', 'GTM-58S5D7Q')
   </script>
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
@@ -53,7 +55,7 @@
       </button>
       <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="it"> IT
       </button>
-      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="el"> EL
+      <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="cy"> EL
       </button>
       <button class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white change-lang-link" id="ro"> RO
       </button>
@@ -64,7 +66,7 @@
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
       <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="en"> EN </button>
       <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="it"> IT </button>
-      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="el"> EL </button>
+      <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="cy"> EL </button>
       <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro"> RO </button>
       <button class="w3-bar-item w3-button w3-padding-large change-lang-link" id="ro"> SV </button>
     </div>
@@ -89,42 +91,67 @@
           and girls but also to the adults going along with them. </h5>
         <h3 data-trans="slogan"> An awareness and critical thinking tool about autonomy and growing up. </h3>
       </div>
-      <div class="w3-third w3-center">   
-        <img class="w3-image w3-padding" src="images/SBM-icona-download2.jpg" />       
+      <div class="w3-third w3-center">
+        <img class="w3-image w3-padding" src="images/SBM-icona-download2.jpg" />
       </div>
     </div>
   </div>
   <!-- Second Grid -->
   <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="downloads">
     <div class="w3-content">
-      <div class="w3-half">
-        <h5 class="w3-padding-32">Game kit download:</h5>
-        <p>
-          <a class="download-link" href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_gameboard_printpack_A3_FrontRear_EN.pdf" target="_blank">Game board print pack!</a>
-        </p>
-        <p>
-          <a class="download-link" href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_Instructions booklet_EN.pdf" target="_blank">Instructions
-            booklet</a>
-        </p>
-        <p><a class="download-link" href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_Cards_Stories_booklet_EN.pdf" target="_blank">Cards & Stories booklet</a></p>
-        <p><a class="download-link" href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_businesscard.pdf" target="_blank">Businesscard</a></p>
-        <p>
-          <a class="download-link" href="downloads/StandByMeBoardGame_EN/StandByMeGame_PRINT/StandByMeGame_box folder.pdf" target="_blank">Box folder</a>
-        </p>
+      <div>
+        <div class="w3-third">
+          <h5 data-trans="kit_download" class="w3-padding-32">Game kit download:</h5>
+        </div>
+        <div class="w3-third">
+          <h5 data-trans="packaging_kit" class="w3-padding-32">Packaging and dissemination kit:</h5>
+        </div>
+        <div class="w3-third">
+          <h5 data-trans="edit_download" class="w3-padding-32">If you wish to edit the game download also:</h5>
+        </div>
       </div>
-      <div class="w3-half">
-        <h5 class="w3-padding-32">If you want to edit the game download also:</h5>
-        <p>
-          <a class="download-link" href="downloads/editablefiles_StandByMeGame_Cards_StoriesbookletEN.docx">Cards & Stories booklet </a>
-        </p>
-        <p>
-          <a class="download-link" href="downloads/editablefiles_StandByMeGame_InstructionsbookletEN.docx">Instructions booklet</a>
-        </p>
-        <p>
-          <a class="download-link" href="downloads/Documentfonts.zip">
-            Font
-          </a>
-        </p>
+      <div>
+        <div class="w3-third">
+          <p>
+            <a data-trans="print_pack" data-download-link="print_pack" class="download-link" href=""
+              target="_blank">Game board print
+              pack!</a>
+          </p>
+          <p>
+            <a data-trans="instructions_booklet" data-download-link="instructions_booklet" class="download-link" href=""
+              target="_blank">Instructions
+              booklet</a>
+          </p>
+          <p><a data-trans="card_stories_booklet" data-download-link="card_stories_booklet" class="download-link"
+              href="" target="_blank">Cards & Stories booklet</a></p>
+        </div>
+
+        <div class="w3-third">
+
+          <p><a data-trans="bussiness_card" data-download-link="bussiness_card" class="download-link" href=""
+              target="_blank">Business card</a></p>
+          <p>
+            <a data-trans="box_folder" data-download-link="box_folder" class="download-link" href="" target="_blank">Box
+              folder</a>
+          </p>
+        </div>
+
+        <div class="w3-third">
+          <p>
+            <a data-trans="edit_card_stories_booklet" data-download-link="edit_card_stories_booklet"
+              class="download-link" href="">Cards & Stories booklet</a>
+          </p>
+          <p>
+            <a data-trans="edit_instructions_booklet" data-download-link="edit_instructions_booklet"
+              class="download-link" href="">Instructions
+              booklet</a>
+          </p>
+          <p>
+            <a data-trans="font" data-download-link="font" class="download-link" href="">
+              Font
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -198,7 +225,7 @@
   </footer>
   <script src="langs/en.js"></script>
   <script src="langs/it.js"></script>
-  <script src="langs/el.js"></script>
+  <script src="langs/cy.js"></script>
   <script src="langs/ro.js"></script>
   <script src="langs/sv.js"></script>
   <script src="index.js"></script>

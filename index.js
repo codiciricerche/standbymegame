@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
       it: {
         translation: TEXTS_IT
       },
-      el: {
-        translation: TEXTS_EL
+      cy: {
+        translation: TEXTS_CY
       },
       ro: {
         translation: TEXTS_RO
@@ -47,6 +47,12 @@ document.addEventListener('DOMContentLoaded', () => {
     var textElements = document.querySelectorAll("*[data-trans]")
     textElements.forEach(function (elem) {
       elem.innerHTML = i18next.t(elem.dataset.trans)
+    })
+
+    var downloadLinks = document.querySelectorAll("a[data-download-link]")
+    downloadLinks.forEach(function (link) {
+      const path = `downloads.${link.dataset.downloadLink}`
+      link.href = i18next.t(path)
     })
   }
 
