@@ -33,7 +33,7 @@ var TEXTS_IT = {
   edit_instructions_booklet: "Istruzioni (editabile)",
   font: "Font",
   downloads: {
-    print_pack: "downloads/IT_StandByMeBoardGame/IT_Gamekitdownload_StandByMeGame/IT_gameboard_printpack_A3_Fronte_retro_StandByMeGame.pdf",
+    print_pack: "downloads/200512-SBM-gameboard-printpack-A4-FrontRear-en.pdf",
     instructions_booklet: "downloads/IT_StandByMeBoardGame/IT_Gamekitdownload_StandByMeGame/IT_Istruzioni_StandByMeGame.pdf",
     card_stories_booklet: "downloads/IT_StandByMeBoardGame/IT_Gamekitdownload_StandByMeGame/IT_Carte_Storie_StandByMeGame.pdf",
     edit_card_stories_booklet: "downloads/IT_StandByMeBoardGame/IT_FileEditabili_StandByMeGame/IT_Carte_Storie_FileEditabili_StandByMegame.docx",
