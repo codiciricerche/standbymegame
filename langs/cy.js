@@ -33,7 +33,7 @@ var TEXTS_CY = {
   edit_instructions_booklet: "Εγχειρίδιο οδηγιών",
   font: "Γραμματοσειρά",
   downloads: {
-    print_pack: "downloads/CY_StandByMeBoardGame/CY_StandByMeGame_Gamekitdownload/EN_gameboard_printpack_A3_FrontRear_StandByMeGame.pdf",
+    print_pack: "downloads/200512-SBM-gameboard-printpack-A4-FrontRear-en.pd",
     instructions_booklet: "downloads/CY_StandByMeBoardGame/CY_StandByMeGame_Gamekitdownload/CY_Εγχειρίδιο_οδηγιών_standbymegame.pdf",
     card_stories_booklet: "downloads/CY_StandByMeBoardGame/CY_StandByMeGame_Gamekitdownload/CY_Κάρτες_Ιστορίες_εγχειρίδιο_standbymegame.pdf",
     edit_card_stories_booklet: "downloads/CY_StandByMeBoardGame/CY_StandByMeGame_επεξεργάσιμααρχεία/CY_Κάρτες_Ιστορίες_εγχειρίδιο_επεξεργάσιμααρχεία_standbymegame.docx",
