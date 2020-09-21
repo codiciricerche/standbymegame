@@ -34,12 +34,12 @@ var TEXTS_RO = {
   font: "Font",
   downloads: {
     print_pack: "downloads/200512-SBM-gameboard-printpack-A4-FrontRear-en.pdf",
-    instructions_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame__Gamekitdownload/EN_Instructions_booklet_StandByMeBoardGame.pdf",
-    card_stories_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame__Gamekitdownload/EN_Cards&Stories_booklet_StandByMeBoardGame.pdf",
-    edit_card_stories_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame_editablefiles/EN_Cards_Stories_booklet_editablefiles_StandByMeGame.docx",
-    edit_instructions_booklet: "downloads/EN_StandByMeBoardGame/EN_StandByMeGame_editablefiles/EN_Instructions_booklet_editablefiles_StandByMeGame.docx",
-    bussiness_card: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_businesscard.pdf",
-    box_folder: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_box folder.pdf",
-    font: "downloads/Fonts/fonts.zip"
-  }
+    instructions_booklet: "downloads/RO_StandByMeBoardGame/RO_StandByMeGame_Gamekitdownload/RO_INSTRUCȚIUNI_StandByMeGame.pdf",
+    card_stories_booklet: "downloads/RO_StandByMeBoardGame/RO_StandByMeGame_Gamekitdownload/RO_CARDURI_POVEŞTI_StandByMeGame.pdf",
+    edit_card_stories_booklet: "downloads/RO_StandByMeBoardGame/RO_fișiereeditabile_StandByMeGame/RO_CARDURI_POVEŞTI_fișiereeditabile_StandByMeGame.docx",
+    edit_instructions_booklet: "downloads/RO_StandByMeBoardGame/RO_fișiereeditabile_StandByMeGame/RO_INSTRUCȚIUNI_fișiereeditabile_StandByMeGame.docx",
+    bussiness_card: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_businesscard.pdf",
+    box_folder: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_box folder.pdf",
+    font: "downloads/Fonts/fonts.zip"
+  }
 }
