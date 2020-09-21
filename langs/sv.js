@@ -34,10 +34,10 @@ var TEXTS_SV = {
   font: "Font",
   downloads: {
     print_pack: "downloads/200512-SBM-gameboard-printpack-A4-FrontRear-en.pdf",
-    instructions_booklet: "downloads/RO_StandByMeBoardGame/RO_StandByMeGame_Gamekitdownload/RO_INSTRUCȚIUNI_StandByMeGame.pdf",
-    card_stories_booklet: "downloads/RO_StandByMeBoardGame/RO_StandByMeGame_Gamekitdownload/RO_CARDURI_POVEŞTI_StandByMeGame.pdf",
-    edit_card_stories_booklet: "downloads/RO_StandByMeBoardGame/RO_fișiereeditabile_StandByMeGame/RO_CARDURI_POVEŞTI_fișiereeditabile_StandByMeGame.docx",
-    edit_instructions_booklet: "downloads/RO_StandByMeBoardGame/RO_fișiereeditabile_StandByMeGame/RO_INSTRUCȚIUNI_fișiereeditabile_StandByMeGame.docx",
+    instructions_booklet: "downloads/StandByMeBoardGame_SE/SE_StandByMeGame__Gamekitdownload/standbymegame_RIKTLINJER SE.pdf",
+    card_stories_booklet: "downloads/StandByMeBoardGame_SE/SE_StandByMeGame__Gamekitdownload/standbymegame_KORT _ BERÄTTELSER SE.pdf",
+    edit_card_stories_booklet: "downloads/StandByMeBoardGame_SE/SE_StandByMeGame_editablefiles/standbymegame_KORT _ BERÄTTELSER SE.docx",
+    edit_instructions_booklet: "downloads/StandByMeBoardGame_SE/SE_StandByMeGame_editablefiles/standbymegame_RIKTLINJER SE.docx",
     bussiness_card: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_businesscard.pdf",
     box_folder: "downloads/Packaging_dissemination_kit_StandByMeGame/StandByMeGame_box folder.pdf",
     font: "downloads/Fonts/fonts.zip"
